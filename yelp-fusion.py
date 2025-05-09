@@ -1,7 +1,6 @@
 import requests
 
-API_KEY = ("gq9EaGmq_zBYVCWYV-AKyIZ0W6P4-Ivd7BJ014bV"
-           "-l05wNbKcJY6_hr69jEdnxRoCUgpI8uz95wAulQEcokvLxwnyqn1jfhtiSsue5MlHFXLleoi_fadsOLGqbMSaHYx")
+API_KEY = ("your_yelp_api_key_here")  # Replace with your Yelp API key
 HEADERS = {"Authorization": f"Bearer {API_KEY}"}
 SEARCH_URL = "https://api.yelp.com/v3/businesses/search"
 REVIEWS_URL = "https://api.yelp.com/v3/businesses/{id}/reviews"
